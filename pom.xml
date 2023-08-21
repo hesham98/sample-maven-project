@@ -23,6 +23,8 @@
     </dependency>
   </dependencies>
 
+  
+  <!-- You give the link to upload the artifact, put your IP:8081 instead of localhost -->
   <distributionManagement>
       <repository>
         <id>central</id>
