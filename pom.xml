@@ -24,8 +24,8 @@
   </dependencies>
 
   
-  <!-- You give the link to upload the artifact, put your IP:8081 instead of localhost -->
-  <!-- make sure the id here is the same with id in setting file, to avoid 401 error -->
+  <!-- These next steps specifies where and how the project artifact will be deployed -->
+  <!-- make sure the id here is the same with id in settings.xml file, to avoid 401 error, put your IP:8081 instead of localhost -->
   <distributionManagement>
       <repository>
         <id>nexus</id>
