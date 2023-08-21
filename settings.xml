@@ -14,9 +14,9 @@
     <!-- choice any repo or the public repo got to Nexus main page choice Browse form right then copy the repo link -->
     <mirrors>
         <mirror>
-            <id>central</id>
-            <name>central</name>
-            <url>http://localhost:8081/repository/maven-public/</url>
+            <id>nexus</id>
+            <name>Maven-releases</name>
+            <urlhttp://localhost:8081/repository/maven-releases/</url>
             <mirrorOf>*</mirrorOf>
         </mirror>
     </mirrors>
