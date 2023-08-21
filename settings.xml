@@ -18,7 +18,7 @@
         <mirror>
             <id>nexus</id>
             <name>Maven-releases</name>
-            <urlhttp://localhost:8081/repository/maven-releases/</url>
+            <url>http://localhost:8081/repository/maven-releases/</url>
             <mirrorOf>*</mirrorOf>
         </mirror>
     </mirrors>
