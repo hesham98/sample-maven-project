@@ -1,6 +1,7 @@
 <settings xmlns="http://maven.apache.org/SETTINGS/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 https://maven.apache.org/xsd/settings-1.0.0.xsd">
-    
+
+    <!-- To link Maven with Nexus you put the username and password that you use to login into Nexus page -->
     <servers>
         <server>
             <id>nexus</id>
@@ -9,7 +10,8 @@
         </server>
     </servers>
 
-
+    <!-- Put your IP:8081 instead of localhost:8081, and then you choice the public repo in Nexus that will push the artifact on it -->
+    <!-- choice any repo or the public repo got to Nexus main page choice Browse form right then copy the repo link -->
     <mirrors>
         <mirror>
             <id>central</id>
