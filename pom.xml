@@ -25,9 +25,10 @@
 
   
   <!-- You give the link to upload the artifact, put your IP:8081 instead of localhost -->
+  <!-- make sure the id here is the same with id in setting file -->
   <distributionManagement>
       <repository>
-        <id>central</id>
+        <id>nexus</id>
         <name>Maven-releases</name>
         <url>http://localhost:8081/repository/maven-public/</url>
       </repository>
