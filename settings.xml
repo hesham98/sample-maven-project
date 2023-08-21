@@ -12,7 +12,7 @@
         </server>
     </servers>
 
-    <!-- Put your IP:8081 instead of localhost:8081, and then you choice the public repo in Nexus that will push the artifact on it -->
+    <!-- Put your IP:8081 instead of localhost:8081, and then you choice the repo in Nexus that will push the artifact on it -->
     <!-- choice any repo or the public repo got to Nexus main page choice Browse form right then copy the repo link -->
     <mirrors>
         <mirror>
